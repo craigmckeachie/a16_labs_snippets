@@ -1,0 +1,39 @@
+{
+  "contractTypes": [
+    {
+      "id": 1,
+      "name": "Fixed Bid",
+      "editing": false
+    },
+    {
+      "id": 2,
+      "name": "Time and Materials",
+      "editing": false
+    },
+    {
+      "id": 3,
+      "name": "Cost + Fixed Markup",
+      "editing": false
+    },
+    {
+      "id": 4,
+      "name": "Fixed Profit",
+      "editing": false
+    },
+    {
+      "id": 5,
+      "name": "Phased Development",
+      "editing": false
+    },
+    {
+      "id": 6,
+      "name": "Sprint Contract",
+      "editing": false
+    },
+    {
+      "id": 7,
+      "name": "Joint Ventures",
+      "editing": false
+    }
+  ]
+}

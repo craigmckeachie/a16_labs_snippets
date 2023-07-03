@@ -1,0 +1,23 @@
+  it('should have projects', waitForAsync(() => {
+    fixture.whenStable().then(() => {
+      expect(component.projects.length).toEqual(7);
+    });
+  }));
+
+
+  OR 
+
+  it('should have projects', async () => {
+      await fixture.whenStable();
+      expect(component.projects.length).toEqual(7);
+  });
+
+  OR
+
+  it('should have projects', fakeAsync(() => {
+    component.ngOnInit();
+    tick(300); //debounce time
+    expect(component.projects.length).toEqual(7);
+  }));
+
+    

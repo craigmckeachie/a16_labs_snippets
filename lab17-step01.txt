@@ -3,10 +3,10 @@ onSubmit() {
       return;
     }
 
-    const updatedProject = Object.assign(
-                            {},
-                            this.project,
-                            this.projectForm.value);
+   const updatedProject = {
+     ...this.project,
+     ...this.projectForm.value
+    };
 
     this.save.emit({project: updatedProject });
   }
